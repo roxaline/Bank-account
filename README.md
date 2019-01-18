@@ -10,10 +10,13 @@ After logging in, the user have to deposit an initial balance on the account,and
 
 **Technologies used**
 
-1* HTML5
-2* CSS
-3* JAVASCRIPT
-4* BOOTSTRAP
+* HTML5
+
+* CSS
+
+* JAVASCRIPT
+
+* BOOTSTRAP
 
 **Contacts** 
 
