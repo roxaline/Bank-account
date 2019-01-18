@@ -1,0 +1,56 @@
+
+#button{
+    background-color: teal;
+    font-weight:bold;
+    font-size: 21px;
+    padding: 2%;
+    border-color:teal;
+    border-radius: 6px;
+    color: black;
+}
+.login{
+    background-color:white;
+    color: black;
+}
+.login-form{ 
+    text-align:center;
+}
+.register a{
+  color:blue;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.form-heading{
+    text-align:center;
+}
+.main-div {
+    background-color:#3c5f68;
+    border-radius: 4px;
+    margin: 10px auto 30px;
+    max-width: 38%;
+    padding: 50px 70px 70px 71px;
+  }
+  .well-login{
+background-image: url("https://cdn.pixabay.com/photo/2018/06/01/23/05/glass-3447456_960_720.jpg");
+background-size: cover;
+}
+.log-In{
+    width: 100px;
+    border: #3c5f68;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
+.log-In a{
+    color: black;
+}
+.botto-text{
+    font-weight: 500;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
+  margin-top: -2px;
+  margin-bottom: -25px;
+}
