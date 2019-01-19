@@ -11,7 +11,7 @@
 
       <div class="row">
         <div class="col-md-6">
-          <form id="">
+          <form id="Form"  name="Form">
             <div class="form-group">
               <label>Name</label>
               <input type="text" class="form-control" id="new-first-name">
@@ -25,29 +25,29 @@
               <div>
                 <div class="form-group">
                   <label>Deposit</label>
-                  <input type="number" class="form-control new-street">
+                  <input type="number" name="Depo" id="deposit" class="form-control new-street">
                 </div>
                 <div class="form-group">
                   <label>Withdraw</label>
-                  <input type="number" class="form-control new-city">
+                  <input type="number" name="Wit" id="withdraw" class="form-control new-city">
                 </div>
                 <div class="form-group">
                   <label>Email</label>
-                  <input type="text"  value="email" class="form-control new-county">
+                  <input type="text"  class="form-control new-county">
                 </div>
               </div>
             </div>
-            <button type="submit" class="btn">Comfirm</button>
+            <button type="submit" class="btn" id="money" onclick="myAccount()">Comfirm</button>
+            </div>
           </form>
         </div>
-
         <div class="col-md-12">
           <div id="show-balance">
-            <h3>Initial balance:</h3>
+            <h3 id="initialB">Your initial balance is:</h3>
           </div>
         </div>
-
       </div>
     </div>
+    <script src="javas.js"></script>
   </body>
 </html>
